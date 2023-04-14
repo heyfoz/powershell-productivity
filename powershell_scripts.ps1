@@ -1,8 +1,8 @@
 #!/usr/bin/env pwsh
 # File header specifies pwsh interpreter for Linux and MacOS
 
-# 1. Windows PC: Copy All Directory File Names
-#Open PowerShell as administrator (Ctrl + Shift + Enter/click)
+# Windows PC: Copy All Directory File Names
+# 1. Open PowerShell as administrator (Ctrl + Shift + Enter/click)
 
 # 2. Change directory to desired folder
 cd path\to\directory
