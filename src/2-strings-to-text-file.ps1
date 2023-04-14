@@ -1,6 +1,8 @@
 #!/usr/bin/env pwsh
 # File header specifies pwsh interpreter location for Linux and MacOS
 
+# 2 Strings to Text File PowerShell Script
+
 # Define parameters type/name
 param([string]$p1UserString, [string]$p2FilePath)
 
