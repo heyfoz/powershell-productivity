@@ -6,5 +6,5 @@
 $stringVariable = Read-Host "Please enter the file text content:" | Trim
 $filePathVariable = Read-Host "Please enter the file path:" | Trim
 
-# Call the 
-Invoke-Expression -Command ".\Script2.ps1"
+# Call the pwsh script to pass the 2 string variables
+Invoke-Expression -Command ".\2-string-to-text-file.ps1" -p1
