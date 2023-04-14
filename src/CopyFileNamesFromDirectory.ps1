@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-# File header specifies pwsh interpreter for Linux and MacOS
+# File header specifies pwsh interpreter location for Linux and macOS
 # Windows PC: Copy All Directory File Names
 
 # 1. Open PowerShell as administrator (Ctrl + Shift + Enter/click)
