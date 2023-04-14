@@ -3,8 +3,8 @@
 
 # Use cmdlet to prompt user to enter a string.
 # Pipeline operator used to send Read-Host output to Trim method
-$stringVariable = Read-Host "Please enter the file text content:" | Trim
-$filePathVariable = Read-Host "Please enter the file path:" | Trim
+$strVar = Read-Host "Please enter the file text content:" | Trim
+$filePathVar = Read-Host "Please enter the file path:" | Trim
 
 # Call the pwsh script to pass the 2 string variables
-Invoke-Expression -Command ".\2-string-to-text-file.ps1" -p1
+Invoke-Expression -Command ".\2-string-to-text-file.ps1" -p1UserString $stringVar -p2FilePath $filePathVar
