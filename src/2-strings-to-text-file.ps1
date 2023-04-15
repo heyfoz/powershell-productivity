@@ -15,6 +15,7 @@ $filePath = $p2FilePath
 Write-Host "File path: $filePath`nUser string: $userString"
 
 # Append the user string to the specified file contents
+# (use Set-Content cmdlet if you wish to replace the entire contents)
 Add-Content -Path $filePath -Value $userString
 
 # SIG # Begin signature block
