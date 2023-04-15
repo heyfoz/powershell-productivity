@@ -11,3 +11,7 @@ $filePathVar = Read-Host "Please enter the file path"
 # Call the pwsh script to pass the 2 string variables
 #Invoke-Expression -Command ".\2-strings-to-text-file.ps1" -p1UserString $strVar -p2FilePath $filePathVar
 & ".\2-strings-to-text-file.ps1" -p1UserString $strVar -p2FilePath $filePathVar
+
+# SIG # Begin signature block
+# ...
+# SIG # End signature block
