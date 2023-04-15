@@ -4,16 +4,19 @@
 # 2 Strings to Text File PowerShell Script
 
 # Define parameters type/name
-Param([string]$p1UserString, [string]$p2FilePath)
-
-# Use cmdlet to prompt user to enter a string.
-# Pipeline operator used to send Read-Host output to Trim method
-$stringVariable = Read-Host "Please enter a string:" | Trim
+Param (
+    [string]$p1UserString,
+    [string]$p2FilePath
+)
+$userString = $p1UserString
+$filePath = $p2FilePath
 
 # Display the args (values of the params) in the console
-Write-Host "File path: $p2FilePath"
-Write-Host "User string: $p1UserString"
+Write-Host "File path: $filePath`nUser string: $userString"
 
-# Add-Content -Path $p2FilePath -Value $1UserString
 # Append the user string to the specified file contents
-Add-Content -Path $p2FilePath -Append $p1UserString
+Add-Content -Path $filePath -Value $userString
+
+# SIG # Begin signature block
+# ...
+# SIG # End signature block
