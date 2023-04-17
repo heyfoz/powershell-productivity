@@ -9,7 +9,7 @@ $fileContents = Read-Host "Please enter the text file content"
 $filePath = Read-Host "Please enter the file path"
 
 # Call the pwsh script to pass the 2 string variables to the appropriate params
-& ".\2-strings-to-text-file.ps1" -p1UserString $fileContents -p2FilePath $filePath
+& ".\2-strings-to-text-file.ps1" -p1StringEntry $fileContents -p2FilePath $filePath
 
 # SIG # Begin signature block
 # ...
