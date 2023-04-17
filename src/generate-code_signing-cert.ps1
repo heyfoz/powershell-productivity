@@ -4,6 +4,7 @@
 # Define parameters type/name
 param([string]$p1Directory, [string]$p2FileName)
 
+# Set execution policy to allow local script creation with digital signature
 Set-ExecutionPolicy RemoteSigned
 
 # Navigate to script directory
