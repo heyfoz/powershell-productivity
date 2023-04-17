@@ -1,2 +1,2 @@
 # powershell
-This  repository contains various PowerShell scripts utilized in technical business settings. 
+This  repository contains various PowerShell scripts, which can be utilized in technical business settings. 
