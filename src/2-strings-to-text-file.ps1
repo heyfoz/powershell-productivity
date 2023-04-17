@@ -8,15 +8,15 @@ Param (
     [string]$p1UserString,
     [string]$p2FilePath
 )
-$userString = $p1UserString
+$fileContents = $p1UserString
 $filePath = $p2FilePath
 
 # Display the args (values of the params) in the console
-Write-Host "File path: $filePath`nUser string: $userString"
+Write-Host "File path: $filePath`nUser string: $fileContents"
 
 # Append the user string to the specified file contents
 # (use Set-Content cmdlet if you wish to replace the entire contents)
-Add-Content -Path $filePath -Value $userString
+Add-Content -Path $filePath -Value $fileContents
 
 # SIG # Begin signature block
 # ...
