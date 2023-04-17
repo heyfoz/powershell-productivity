@@ -5,10 +5,10 @@
 
 # Define parameters type/name
 Param (
-    [string]$p1UserString,
+    [string]$p1StringEntry,
     [string]$p2FilePath
 )
-$fileContents = $p1UserString
+$fileContents = $p1StringEntry
 $filePath = $p2FilePath
 
 # Display the args (values of the params) in the console
