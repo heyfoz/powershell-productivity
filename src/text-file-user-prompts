@@ -3,7 +3,7 @@
 
 # Text File User Prompts PowerShell Script
 
-# Use cmdlet to prompt user to enter a string.
+# Use cmdlet to prompt user to assign 2 string values
 # Pipeline operator used to send Read-Host output to Trim method
 $strVar = Read-Host "Please enter the file text content"
 $filePathVar = Read-Host "Please enter the file path"
