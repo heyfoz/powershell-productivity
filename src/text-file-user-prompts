@@ -5,11 +5,11 @@
 
 # Use cmdlet to prompt user to assign 2 string values
 # Pipeline operator used to send Read-Host output to Trim method
-$strVar = Read-Host "Please enter the file text content"
-$filePathVar = Read-Host "Please enter the file path"
+$fileContents = Read-Host "Please enter the text file content"
+$filePath = Read-Host "Please enter the file path"
 
 # Call the pwsh script to pass the 2 string variables to the appropriate params
-& ".\2-strings-to-text-file.ps1" -p1UserString $strVar -p2FilePath $filePathVar
+& ".\2-strings-to-text-file.ps1" -p1UserString $fileContents -p2FilePath $filePath
 
 # SIG # Begin signature block
 # ...
