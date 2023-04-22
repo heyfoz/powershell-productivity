@@ -12,13 +12,13 @@ cd $p1Directory
 
 # Generate code signing certificate to sign script for 1 year
 New-SelfSignedCertificate -Subject "CN=My Code Signing Certificate" -CertStoreLocation "Cert:\CurrentUser\My" -Type CodeSigningCert -NotAfter (Get-Date).AddYears(1)
+
 # Console output example:
 # PSParentPath: Microsoft.PowerShell.Security\Certificate::CurrentUser\My
 
 # Thumbprint                                Subject
 # ----------                                -------
 # 1234567890abcdef1234567890abcdef12345678  CN=My Code Signing Certificate
-
 
 # Get the path to the certificate
 Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert
