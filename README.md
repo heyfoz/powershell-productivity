@@ -9,6 +9,4 @@ This repository contains various PowerShell scripts, which can be utilized in te
  <li><a href="https://github.com/ffm5113/powershell/blob/main/src/copy-file-names-from-directory.ps1">copy-file-names-from-directory.ps1</a>: Copies list of file names based on directory location specified in the script.</li>
 </ul>
 
-<a href="https://github.com/ffm5113/powershell/tree/main/src">PowerShell Scripts Source Code Directory</a>
-
 Copyright (c) 2023 Forrest Moulin
